@@ -2,6 +2,9 @@
     "name": "genstack",
     "version": "1.0.0",
     "private": true,
+    "engines": {
+        "node": ">=20.0.0 <22.0.0"
+    },
     "scripts": {
         "dev": "vite dev",
         "dev-sst": "sst bind vite dev",
